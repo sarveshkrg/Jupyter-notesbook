@@ -1,0 +1,51 @@
+Initial Configration
+____________________
+
+C:\Users\Admin>git config --global user.name "sarvesh"
+
+C:\Users\Admin>git config --global user.email "sarveshkrg@gmail.com"
+
+--------------------------------------------------------------------
+
+Pushing fresh project to Github
+_______________________________
+
+E:\Jupyter Notebook>git init
+
+E:\Jupyter Notebook>git add *
+
+E:\Jupyter Notebook>git status
+
+E:\Jupyter Notebook>git commit -m "First Commit"
+
+Create a fresh repository in Github (eg. Jupyter notesbook) and copy the git link from there
+
+E:\Jupyter Notebook>git remote add origin https://github.com/sarveshkrg/Jupyter-notesbook.git
+
+E:\Jupyter Notebook>git push origin master
+
+---------------------------------------------------------------------------------------------
+
+Pulling existing repository from Github to local machine
+________________________________________________________
+
+Copy the git link from existing repository and use command below (only first time)
+
+E:\>git clone https://github.com/sarveshkrg/HackerRank-DataStructures.git
+
+now add some code and push as above mentioned (no need to git init again)
+
+E:\HackerRank-DataStructures>git add *
+
+E:\HackerRank-DataStructures>git commit -m "Some Files added"
+
+E:\HackerRank-DataStructures>git remote add <git link>
+
+E:\HackerRank-DataStructures>git push origin master
+
+---------------------------------------------------
+
+How to Pull latest changes done by some employee in existing repository (which is already cloned in your machine)
+_________________________________________________________________________________________________________________
+
+E:\HackerRank-DataStructures>git pull origin master
